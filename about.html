@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>about.html</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Prasad Bylapudi | portfolio">
+        <meta name="author" content="Prasad Bylapudi">
+		<link rel="shortcut icon" href="icon.jpeg">        
+		<script src="https://kit.fontawesome.com/ca194095ec.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="themes.js"></script>
+    </head>
+
+    <body>
+        <div id="title"><a href="index.html">&lt;</a> About</div>
+
+        <main>
+            <div class="line">Hi!</div>
+            <div class="line"></div>
+            <div class="line">I'm Prasad Bylapudi, an undergraduate computer science student.</div>
+            <div class="line">I'm a passionate learner and enthusiastic developer </div>
+            <div class="line">with keen interest in software development and Machine Learning.</div>
+            <div class="line">I love to explore new technologies and leverage them to solve real-life problems.</div>
+            <div class="line"></div>
+            <div class="line">When I'm not programming I really like travelling, watching films</div>
+            <div class="line">and Documentaries and love photograhy.</div>
+            <div class="empty-line"></div> <div class="empty-line"></div> <div class="empty-line"></div>
+            <div class="status-line"><span>-- INSERT --</span><span>9,54          All</span></div>
+        </main>
+    </body>
+
+    <style>
+        main { counter-reset: lineno; }
+
+        .line, .status-line { white-space: nowrap; }
+
+        .line:before {
+            counter-increment: lineno;
+            content: counter(lineno);
+            padding-right: 1vw;
+            padding-left: 1vw;
+            font-weight: bold;
+        }
+
+        .empty-line:before {
+            content: "~";
+            padding-right: 1vw;
+            font-weight: bold;
+        }
+
+        .status-line {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+    </style>
+
+</html>
