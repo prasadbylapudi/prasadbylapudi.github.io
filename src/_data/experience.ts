@@ -2,6 +2,24 @@ import type { Experience } from '$lib/types/main';
 
 export default [
 	{
+		companyName: 'Grow4tech',
+		roles: [
+			{
+				role: 'Software Engineer- full stack',
+				period: 'Dec 2023 - Aug 2024'
+			}
+		],
+		description: [
+			'Developed a CMS platform for video courses, enabling users to enroll, attempt quizzes, challenges, and earn certificates.',
+			'Integrated a secure payment system and a CRM for marketing and analytics, leveraging Kafka and SQS queue service
+            for asynchronous processing, improving system performance, user engagement, and insights.',
+			'Deployed the frontend on Amazon S3 for cost optimization and used AWS Lambda to connect to the backend. Imple-
+mented CI/CD pipelines with Docker and Kubernetes for scalable deployment.',
+			'The tech stack is Nest.js, TypeScript,PostgreSQL, and AWS(EKS, ECR, S3, SQS, EC2).'
+		]
+	}
+	,
+	{
 		companyName: 'Samaaro',
 		roles: [
 			{
@@ -17,21 +35,6 @@ export default [
 			'Implemented core components including push notifications and feedback functionality, achieving a 40% cost reduction in AWS servers through strategic resource allocation and efficient utilization.',
 			'Demonstrated expertise in JavaScript, TypeScript, Reactl, Node, Express and AWS for efficient and scalable development.'
 
-		]
-	},
-	{
-		companyName: 'Candid Reviews',
-		roles: [
-			{
-				role: 'Software Engineer Intern',
-				period: 'Jan 2022 - Apr 2022'
-			}
-		],
-		description: [
-			'Designed and developed core components like authentication, onboard, and dashboard.',
-			'Rewrote the client application using ChakraUI and achieved a fully responsive website.',
-			'Implemented Intro.js for the platform for the user to navigate.',
-			'Expertly utilized React, Node, Express, MongoDB, and Firebase to reach project milestones.'
 		]
 	},
 	{
